@@ -1,0 +1,127 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\AlignedAxesDemo.png" />
+    <None Remove="Images\AnimationsDemo.png" />
+    <None Remove="Images\AnnotationDemo.png" />
+    <None Remove="Images\AreaDemo.png" />
+    <None Remove="Images\AxesDemo.png" />
+    <None Remove="Images\BarSeriesDemo.png" />
+    <None Remove="Images\BindingDemo.png" />
+    <None Remove="Images\BindingObservableCollectionDemo.png" />
+    <None Remove="Images\BoxPlotSeriesDemo.png" />
+    <None Remove="Images\ColorBindingDemo.png" />
+    <None Remove="Images\ColumnSeriesDemo.png" />
+    <None Remove="Images\ContextMenuDemo.png" />
+    <None Remove="Images\ContourDemo.png" />
+    <None Remove="Images\ControllerDemo.png" />
+    <None Remove="Images\CoupledAxesDemo.png" />
+    <None Remove="Images\CsvDemo.png" />
+    <None Remove="Images\CustomTrackerDemo.png" />
+    <None Remove="Images\DataTemplateDemo.png" />
+    <None Remove="Images\DateTimeDemo.png" />
+    <None Remove="Images\ExportDemo.png" />
+    <None Remove="Images\HeatMapDemo.png" />
+    <None Remove="Images\HistogramDemo.png" />
+    <None Remove="Images\InterpolationDemo.png" />
+    <None Remove="Images\LegendsDemo.png" />
+    <None Remove="Images\LinearBarSeriesDemo.png" />
+    <None Remove="Images\LiveDemo.png" />
+    <None Remove="Images\MathBlockDemo.png" />
+    <None Remove="Images\MemoryTest.png" />
+    <None Remove="Images\OverlayDemo.png" />
+    <None Remove="Images\PerformanceDemo.png" />
+    <None Remove="Images\PieDemo.png" />
+    <None Remove="Images\PlotModelAlreadyInUse.png" />
+    <None Remove="Images\PolarDemo.png" />
+    <None Remove="Images\RealtimeDemo.png" />
+    <None Remove="Images\RectangleSeriesDemo.png" />
+    <None Remove="Images\RefreshDemo.png" />
+    <None Remove="Images\ResizeDemo.png" />
+    <None Remove="Images\ScatterDemo.png" />
+    <None Remove="Images\ScatterErrorSeriesDemo.png" />
+    <None Remove="Images\ScrollViewerDemo.png" />
+    <None Remove="Images\TaskDemo.png" />
+    <None Remove="Images\ToolTipDemo.png" />
+    <None Remove="Images\TwoColorAreaDemo.png" />
+    <None Remove="Images\UserControlDemo.png" />
+    <None Remove="Images\WorldStatisticsDemo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OxyPlot.Wpf" Version="2.1.0" />
+    <PackageReference Include="PropertyTools.Wpf" Version="3.1.0" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExampleLibrary\ExampleLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\AlignedAxesDemo.png" />
+    <Resource Include="Images\AnimationsDemo.png" />
+    <Resource Include="Images\AnnotationDemo.png" />
+    <Resource Include="Images\AreaDemo.png" />
+    <Resource Include="Images\AxesDemo.png" />
+    <Resource Include="Images\BarSeriesDemo.png" />
+    <Resource Include="Images\BindingDemo.png" />
+    <Resource Include="Images\BindingObservableCollectionDemo.png" />
+    <Resource Include="Images\BoxPlotSeriesDemo.png" />
+    <Resource Include="Images\ColorBindingDemo.png" />
+    <Resource Include="Images\ColumnSeriesDemo.png" />
+    <Resource Include="Images\ContextMenuDemo.png" />
+    <Resource Include="Images\ContourDemo.png" />
+    <Resource Include="Images\ControllerDemo.png" />
+    <Resource Include="Images\CoupledAxesDemo.png" />
+    <Resource Include="Images\CsvDemo.png" />
+    <Resource Include="Images\CustomTrackerDemo.png" />
+    <Resource Include="Images\DataTemplateDemo.png" />
+    <Resource Include="Images\DateTimeDemo.png" />
+    <Resource Include="Images\ExportDemo.png" />
+    <Resource Include="Images\HeatMapDemo.png" />
+    <Resource Include="Images\HistogramDemo.png" />
+    <Resource Include="Images\InterpolationDemo.png" />
+    <Resource Include="Images\LegendsDemo.png" />
+    <Resource Include="Images\LinearBarSeriesDemo.png" />
+    <Resource Include="Images\LiveDemo.png" />
+    <Resource Include="Images\MathBlockDemo.png" />
+    <Resource Include="Images\MemoryTest.png" />
+    <Resource Include="Images\OverlayDemo.png" />
+    <Resource Include="Images\PerformanceDemo.png" />
+    <Resource Include="Images\PieDemo.png" />
+    <Resource Include="Images\PlotModelAlreadyInUse.png" />
+    <Resource Include="Images\PolarDemo.png" />
+    <Resource Include="Images\RealtimeDemo.png" />
+    <Resource Include="Images\RectangleSeriesDemo.png" />
+    <Resource Include="Images\RefreshDemo.png" />
+    <Resource Include="Images\ResizeDemo.png" />
+    <Resource Include="Images\ScatterDemo.png" />
+    <Resource Include="Images\ScatterErrorSeriesDemo.png" />
+    <Resource Include="Images\ScrollViewerDemo.png" />
+    <Resource Include="Images\TaskDemo.png" />
+    <Resource Include="Images\ToolTipDemo.png" />
+    <Resource Include="Images\TwoColorAreaDemo.png" />
+    <Resource Include="Images\UserControlDemo.png" />
+    <Resource Include="Images\WorldStatisticsDemo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Examples\CsvDemo\Data\GlobalTemperatureAnomaly.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Examples\CsvDemo\Data\RiverFlow.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Examples\CsvDemo\Data\WorldPopulation.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
